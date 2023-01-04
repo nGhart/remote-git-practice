@@ -1,0 +1,136 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-size: 16px;
+}
+.size {
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.star {
+    position: relative;
+    display: inline-block;
+}
+.star .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 5px 0;
+    position: absolute;
+    top: 0px;
+    left: 105%;
+    z-index: 1;
+}
+.star:hover .tooltiptext {
+    visibility: visible;
+}
+.banner {
+    background-color: white;
+    border: none;
+}
+.freeShip {
+    position: absolute;
+    color: rgb(236, 236, 236);
+    top: 0;
+    right: 15px;
+    padding: 5px;
+    font-size: 0.6em;
+    background-color: rgb(27, 26, 32);
+}
+h2, h4, h5, p {
+    text-align: center;
+}
+.model {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 270px;
+    position: relative;
+}
+.one {
+     background-image: url("images/a1.webp");
+}
+ .two {
+     background-image: url("images/a2.webp");
+}
+.three {
+     background-image: url("images/a3.webp");
+}
+.four {
+     background-image: url("images/a4.webp");
+}
+.five {
+     background-image: url("images/a5.webp");
+}
+.six {
+     background-image: url("images/a6.webp");
+}
+.seven {
+     background-image: url("images/a7.webp");
+}
+.eight {
+     background-image: url("images/a8.webp");
+}
+.nine {
+     background-image: url("images/a9.webp");
+}
+.ten {
+     background-image: url("images/a10.webp");
+}
+.eleven {
+     background-image: url("images/a11.webp");
+}
+.twelve {
+     background-image: url("images/a12.webp");
+}
+.thirt {
+     background-image: url("images/a13.webp");
+}
+.fourt {
+     background-image: url("images/a14.webp");
+}
+.fift {
+     background-image: url("images/a15.webp");
+}
+.sixt {
+     background-image: url("images/a16.webp");
+}
+.item {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.cart {
+    background-color: black;
+    border-radius: 0;
+    border: none;
+}
+.cart:hover {
+    background-color: yellow;
+}
+b {
+    font-size: 24px;
+}
+.line {
+    font-size:20px;
+    color: yellow;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h5 {
+    margin-bottom: 0;
+}

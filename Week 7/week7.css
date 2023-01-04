@@ -1,0 +1,28 @@
+* {
+	font-weight: 600;
+}
+
+.head, .foot {
+	background-color: navy;
+	color: white;
+	font-weight: 700;
+}
+
+.head h1 {
+	font-weight: 800;
+}
+
+.menu a {
+	font-size: 25px;
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+.foot a {
+	color: white;
+}
+
+.foot h4 {
+	font-weight: 700;
+}
+

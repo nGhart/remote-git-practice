@@ -1,0 +1,33 @@
+body {
+	padding: 50px;
+}
+
+.banner:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+
+.signUp {
+	}
+
+.sidebar {
+	position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    margin-top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    height: 700px;
+    
+
+/*.main {
+	float: left;
+
+}*/

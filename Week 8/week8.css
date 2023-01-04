@@ -1,0 +1,50 @@
+body {
+	background-image: url(images/w1.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Lexend Deca', sans-serif;
+}
+h3, h1, h5 {
+	color: #fff;
+}
+.banner {
+	margin-top: 20px;
+}
+.pink button {
+	padding-top: 5px;
+	margin-top: 5px;
+}
+.menu {
+	border-radius: 50px;
+}
+.services {
+	background-color: black;
+}
+.panel-default > .services {
+    color: #333333;
+    background-color:#febecc;
+    }
+input {
+	margin: 10px;
+	background-color: #febecc;
+	border-radius: 5px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	color: #fff;
+}
+.joinList {
+	border-radius: 50px;
+	margin: auto;
+}
+.med {
+	position: fixed;
+	bottom: 15px;
+	left: 5px;
+}
+#chat {
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+}
